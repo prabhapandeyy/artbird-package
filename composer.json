@@ -1,5 +1,10 @@
 {
     "name": "artbird/module",
     "description": "this is for demo",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ARTBIRD\\Module\\": "src/"
+        }
+    }
 }
