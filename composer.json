@@ -6,5 +6,12 @@
         "psr-4": {
             "ARTBIRD\\Module\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ARTBIRD\\Module\\ModuleServiceProvider"
+            ]
+        }
     }
 }
